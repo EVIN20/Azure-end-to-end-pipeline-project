@@ -36,6 +36,20 @@ Step5: Making a linked service for storage,databricks and key vault.
 
 ![image](https://github.com/user-attachments/assets/0a508098-9280-451f-bd7b-9bd1d75fce0f)
 
+Step6: Performing validation checks (see the notebook)
+
+Step7: Creating the pipeline that will be triggered by storage events
+
+
+................................................................................................................................................................
+
+If the validation checks are passed then the pipelines executes and the file "orders.csv" is moved from "landing" folder to "staging" folder.
+
+![image](https://github.com/user-attachments/assets/d2d682f2-a616-45a3-a803-12ae5c007717)
+
+
+
+If the validation checks fail then the file "orders.csv" is moved to discarded folder.
 
 
 
